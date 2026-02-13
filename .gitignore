@@ -1,0 +1,38 @@
+# --- JAVA ---
+# Ignora todos os arquivos compilados (.class)
+*.class
+
+# Ignora arquivos de log
+*.log
+
+# Ignora pacotes compactados
+*.jar
+*.war
+*.ear
+
+# --- MAVEN / GRADLE ---
+# Se você usa Maven, ignora a pasta target onde fica o build
+target/
+# Se você usa Gradle, ignora a pasta build
+build/
+.gradle/
+
+# --- IDEs (Configurações locais) ---
+# Visual Studio Code
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+
+# --- SISTEMA OPERACIONAL ---
+# Arquivos temporários do Windows ou Mac
+Thumbs.db
+.DS_Store
